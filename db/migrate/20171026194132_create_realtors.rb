@@ -2,7 +2,6 @@ class CreateRealtors < ActiveRecord::Migration[5.1]
   def change
     create_table :realtors do |t|
       t.string :name
-      t.string :picture
       t.string :password
 
       t.timestamps

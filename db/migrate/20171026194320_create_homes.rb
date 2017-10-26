@@ -3,7 +3,6 @@ class CreateHomes < ActiveRecord::Migration[5.1]
     create_table :homes do |t|
       t.string :name
       t.string :location
-      t.string :picture
 
       t.timestamps
     end
